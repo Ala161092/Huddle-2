@@ -1,0 +1,385 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .wrapper {
+            margin: 0 auto;
+        }
+        
+        .headerContainer {
+            background-image: url(./images/bg-hero-mobile.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: top;
+            background-color: #EDFBFF;
+            padding: 15px;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .logoContainer {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 80px;
+        }
+        
+        .logoContainer img {
+            width: 104px;
+            height: 16px;
+        }
+        
+        .try-button a {
+            width: 96px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 10px;
+            color: black;
+            background-color: white;
+            border-radius: 20px;
+            padding: 4px 23px;
+            box-shadow: 5px 5px 10px rgba(107, 105, 105, 0.527);
+        }
+        
+        .try-button a:hover {
+            color: hsl(208, 11%, 55%);
+        }
+        
+        .headText h1 {
+            width: 304px;
+            margin: auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        
+        .headText p {
+            width: 304px;
+            margin: auto;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 32px;
+        }
+        
+        .buttonContainer a {
+            text-decoration: none;
+            background-color: hsl(322, 100%, 66%);
+            padding: 10px 60px;
+            border-radius: 20px;
+            color: white;
+            font-size: 12px;
+        }
+        
+        .buttonContainer {
+            margin-bottom: 56px;
+        }
+        
+        .buttonContainer a:hover {
+            background-color: hsl(322, 100%, 76%);
+        }
+        
+        .mockupContainer {
+            max-width: 296px;
+            margin: 0 auto;
+        }
+        
+        .mockupContainer img {
+            width: 100%;
+        }
+        
+        .cardContainer {
+            padding: 16px;
+        }
+        
+        .cardSectionContainer {
+            height: 488px;
+            margin: auto;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 5px 5px 10px rgba(107, 105, 105, 0.527);
+            margin-bottom: 40px;
+            padding: 0 40px;
+        }
+        
+        .imageContainer img {
+            width: 256px;
+            height: 256px;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        
+        .sectionText h2 {
+            color: #00252E;
+            font-family: 'Poppins', sans-serif;
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 16px;
+        }
+        
+        .sectionText p {
+            color: hsl(208, 11%, 55%);
+            font-size: 14px;
+            line-height: 21px;
+        }
+        
+        .bottomContainer {
+            height: 176px;
+            padding: 40px 23px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0px 5px 10px rgba(107, 105, 105, 0.527);
+            position: relative;
+            bottom: -90px;
+            align-items: center;
+            background-color: white;
+            transform: translateX(-50%);
+            left: 50%;
+        }
+        
+        .bottomContainer h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            padding-bottom: 24px;
+        }
+        
+        footer {
+            background-color: hsl(192, 100%, 9%);
+            padding-top: 150px;
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        
+        .logo {
+            height: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .infoContainer .sectionText {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 20px;
+        }
+        
+        .infoContainer {
+            margin-bottom: 60px;
+        }
+        
+        .sectionText img {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            text-align: left;
+        }
+        
+        .sectionText .paragraph {
+            width: 298px;
+            justify-content: left;
+            font-size: 14px;
+            color: white;
+        }
+        
+        .infoLinks a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            color: white;
+            margin-bottom: 16px;
+            font-size: 14px;
+        }
+        
+        .infoLinks li {
+            list-style: none;
+        }
+        
+        .infoLinks a:hover {
+            text-decoration: underline solid 1px white;
+        }
+        
+        .infoLinksContainer {
+            margin-bottom: 24px;
+        }
+        
+        .socialLinks {
+            display: flex;
+            justify-content: space-between;
+            width: 180px;
+            margin: auto;
+            text-align: center;
+        }
+        
+        ion-icon {
+            font-size: 20px;
+            color: white;
+            border-radius: 50%;
+            border: 1px solid white;
+            padding: 5px;
+        }
+        
+        ion-icon:hover {
+            color: hsl(322, 100%, 66%);
+            border: 1px solid hsl(322, 100%, 66%);
+        }
+        
+        .copyright {
+            width: 243px;
+            display: flex;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .copyright p {
+            font-size: 11px;
+            color: white;
+            margin-top: 24px;
+            margin-bottom: 24px;
+        }
+        
+        .copy {
+            margin-right: 10px;
+        }
+        
+        @media screen and (min-width:820px) {
+            .headerContainer {
+                background-image: url(./images/bg-hero-desktop.svg);
+                padding: 30px;
+            }
+            .headerTextContainer {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                text-align: left;
+            }
+            .buttonContainer.header {
+                width: 319px;
+                margin: auto;
+            }
+            .headText h1 {
+                width: 319px;
+            }
+            .headText p {
+                width: 319px;
+            }
+            .mockupContainer {
+                max-width: 600px;
+                min-width: 370px;
+            }
+            .cardSectionContainer {
+                width: 750px;
+                height: 300px;
+                margin: auto;
+                text-align: center;
+                border-radius: 12px;
+                box-shadow: 5px 5px 10px rgba(107, 105, 105, 0.527);
+                margin-bottom: 40px;
+                padding: 0 40px;
+            }
+            .cardSectionContainer {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .imageContainer.one {
+                grid-column: 2;
+                grid-row: 1/1;
+            }
+            .imageContainer.two {
+                grid-column: 1;
+                grid-row: 1/1;
+            }
+            .imageContainer.three {
+                grid-column: 2;
+                grid-row: 1/1;
+            }
+            .cardSectionContainer .sectionText {
+                display: grid;
+                justify-content: center;
+                align-content: center;
+                text-align: left;
+            }
+            .bottomContainer {
+                width: 600px;
+            }
+            footer {
+                padding: 150px 30px 0px 30px;
+            }
+            .footerNav {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                text-align: left;
+                column-gap: 40px;
+            }
+            .sectionText .paragraph {
+                font-size: 10px;
+            }
+            .infoLinksContainer {
+                grid-column: 2/3;
+            }
+            .infoLinks {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(3, 1fr);
+                column-gap: 50px;
+                row-gap: 5px;
+            }
+            .infoLinks a {
+                font-size: 10px;
+            }
+            .link-one {
+                grid-column: 1/2;
+                grid-row: 1/3;
+            }
+            .link-two {
+                grid-column: 1/2;
+                grid-row: 2/3;
+            }
+            .link-three {
+                grid-column: 1/2;
+                grid-row: 3/3;
+            }
+            .link-four {
+                grid-column: 2/2;
+                grid-row: 1/3;
+            }
+            .link-five {
+                grid-column: 2/2;
+                grid-row: 2/3;
+            }
+            .link-six {
+                grid-column: 2/2;
+                grid-row: 3/3;
+            }
+            ion-icon {
+                font-size: 15px;
+                margin-bottom: 50px;
+            }
+            .copyright p {
+                font-size: 10px;
+            }
+            .footerContent {
+                width: 750px;
+                max-width: 1600px;
+                margin: auto;
+            }
+        }
+        
+        @media screen and (min-width:1120px) {
+            .headerTextContainer {
+                max-width: 1440px;
+                width: 85%;
+                margin: 0 auto;
+                justify-content: center;
+                align-items: center;
+            }
+            .mockupContainer {
+                max-width: 680px;
+            }
+            .cardSectionContainer {
+                width: 900px;
+            }
+            .footerContent {
+                width: 900px;
+            }
+        }
